@@ -16,6 +16,9 @@ public class NPCController : MonoBehaviour
     Animator animator; // reference to the animator component
     NavMeshAgent agent; // reference to the NavMeshAgent
 
+    [Header("Use for Debugging Aggro Radius")]
+    public bool showAggro = true;
+    
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -58,7 +61,14 @@ public class NPCController : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color=Color.red;
-        Gizmos.DrawWireSphere(transform.position,aggroRange);
+        if (showAggro)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, aggroRange);
+        }
+        else
+        {
+            return;
+        }
     }
 }

@@ -61,6 +61,8 @@
      <Compile Include="Assets\1. Character &amp; NPC Controller\Scripts\HeroController.cs" />
      <Compile Include="Assets\1. Character &amp; NPC Controller\Scripts\NPCController.cs" />
      <Compile Include="Assets\1. Character &amp; NPC Controller\Scripts\Waypoint.cs" />
+     <Compile Include="Assets\2. Character Stat System\Scripts\Monobehavious\ItemPickUp.cs" />
+     <Compile Include="Assets\2. Character Stat System\Scripts\Scriptable Objects\CharacterStats_SO.cs" />
      <Compile Include="Assets\Common\Level\FX\Scripts\LightFlicker.cs" />
      <Compile Include="Assets\Common\Level\FX\Streaks\RandomizeLightStreak.cs" />
      <Compile Include="Assets\Common\Scripts\MouseManager.cs" />
