@@ -114,6 +114,40 @@ public class CharacterStats_SO : ScriptableObject
          currentResistance += resistanceAmount;
       }
    }
+
+   public void EquipWeapon(ItemPickUp weaponPickUp,CharacterInventory charInventory,GameObject weaponSlot)
+   {
+      weapon = weaponPickUp;
+      currentDamage = baseDamage + weapon.itemDefinition.itemAmount;
+   }
+
+   public void EquipArmor(ItemPickUp armorPickup, CharacterInventory characterInventory)
+   {
+      switch (armorPickup.itemDefinition.itemArmorSubType)
+      {
+         case ItemArmorSubType.Head:
+            headArmor = armorPickup;
+            currentResistance += armorPickup.itemDefinition.itemAmount;
+            break;
+         case ItemArmorSubType.Chest:
+            chestArmor = armorPickup;
+            currentResistance += armorPickup.itemDefinition.itemAmount;
+            break;
+         case ItemArmorSubType.Hands:
+            handArmor = armorPickup;
+            currentResistance += armorPickup.itemDefinition.itemAmount;
+            break;
+         case ItemArmorSubType.Legs:
+            legArmor = armorPickup;
+            currentResistance += armorPickup.itemDefinition.itemAmount;
+            break;
+         case ItemArmorSubType.Boots:
+            footArmor = armorPickup;
+            currentResistance += armorPickup.itemDefinition.itemAmount;
+            break;
+      }
+      
+   }
    
 
    #endregion
@@ -136,6 +170,99 @@ public class CharacterStats_SO : ScriptableObject
       {
          currentMana = 0;
       }
+   }
+
+   public bool UnEquipWeapon(ItemPickUp weaponPickUp, CharacterInventory characterInventory,
+      GameObject weaponSlot)
+   {
+      bool previousWeaponSame = false;
+
+      if (weapon != null)
+      {
+         if (weapon == weaponPickUp)
+         {
+            previousWeaponSame = true;
+         }
+         DestroyObject(weaponSlot.transform.GetChild(0).gameObject);
+         weapon = null;
+         currentDamage = baseDamage;
+      }
+
+      return previousWeaponSame;
+   }
+
+   public bool UnEquipArmor(ItemPickUp armorPickUp, CharacterInventory characterInventory)
+   {
+      bool previousArmorSame = false;
+      switch (armorPickUp.itemDefinition.itemArmorSubType)
+      {
+         case ItemArmorSubType.Head:
+            if (headArmor != null)
+            {
+               if (headArmor == armorPickUp)
+               {
+                  previousArmorSame = true;
+               }
+
+               currentResistance -= armorPickUp.itemDefinition.itemAmount;
+               headArmor = null;
+            }
+
+            break;
+         case ItemArmorSubType.Chest:
+            if (chestArmor != null)
+            {
+               if (chestArmor == armorPickUp)
+               {
+                  previousArmorSame = true;
+               }
+
+               currentResistance -= armorPickUp.itemDefinition.itemAmount;
+               chestArmor = null;
+            }
+
+            break;
+         case ItemArmorSubType.Hands:
+            if (handArmor != null)
+            {
+               if (handArmor == armorPickUp)
+               {
+                  previousArmorSame = true;
+               }
+
+               currentResistance -= armorPickUp.itemDefinition.itemAmount;
+               handArmor = null;
+            }
+
+            break;
+         case ItemArmorSubType.Legs:
+            if (legArmor != null)
+            {
+               if (legArmor == armorPickUp)
+               {
+                  previousArmorSame = true;
+               }
+
+               currentResistance -= armorPickUp.itemDefinition.itemAmount;
+               legArmor = null;
+            }
+
+            break;
+         case ItemArmorSubType.Boots:
+            if (footArmor != null)
+            {
+               if (footArmor == armorPickUp)
+               {
+                  previousArmorSame = true;
+               }
+
+               currentResistance -= armorPickUp.itemDefinition.itemAmount;
+               footArmor = null;
+            }
+
+            break;
+      }
+      return previousArmorSame;
    }
 
    #endregion

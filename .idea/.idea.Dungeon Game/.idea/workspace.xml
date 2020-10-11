@@ -21,19 +21,36 @@
   <component name="ChangeListManager">
     <list default="true" id="dcef0149-e2d5-4fc9-aad6-18fe87c50464" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dungeon Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dungeon Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dungeon Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dungeon Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dungeon Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dungeon Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Character &amp; NPC Controller/Scripts/NPCController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Character &amp; NPC Controller/Scripts/NPCController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Monobehavious/ItemPickUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Monobehavious/ItemPickUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/CharacterStats_SO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/CharacterStats_SO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/62/623302152489e388881430defba83e3c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/67/671781c794168dd8d6907153acffbc72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/04/046226134cd5e0ce8e57932eaed378ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/14/1428dcb6183e92bff73962dfaf83a91f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/14/1469acddffd28c1a24064fd0d80d2420" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/17/1748cbd3b233c21d46fb710b2b7e7b5b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1f/1ff42586426d76be054e6cf361ac7ac4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/22/2269a5ab91d6eb3c74a0014597e11ec4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5c/5c8f4f6c6cbca7ff9b1cb73cd1b2f744" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/62/621afd5581cc187b22e474fd32bddfb4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/67/67941b1374659b0027d5252332ce69f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/68/6863aa57f4821c20c4c1660f358320f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/86/86e1a5adb508c18a4532735f7bfc56ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8a/8a25518554a77f1206a6fa8fb06aa070" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8d/8d5f5f72976ccd28b50cf0beffeef141" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/93/93f2b14547489490abb04d3e175148ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bd/bd1563e0b5b55a7e0a9134609f723727" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d1/d1120bb64cc8d2ea410e23f34b8507db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d4/d47d5a3fa507e18dd6a8d58c349a3c23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d9/d9bedb7cb53d24e8ec7c1aedd989c573" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ee/eeeb2c9767f21623e137cd30d68b02e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ff/ff6f34d2a7ac124c434dca323fc4ad0c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/33912c-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/33912c-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/067c0b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/067c0b-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +63,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/CharacterStats_SO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/ItemPickUp_SO.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,6 +72,8 @@
         <option value="$PROJECT_DIR$/Assets/1. Character &amp; NPC Controller/Scripts/HeroController.cs" />
         <option value="$PROJECT_DIR$/Assets/Common/Scripts/MouseManager.cs" />
         <option value="$PROJECT_DIR$/Assets/1. Character &amp; NPC Controller/Scripts/NPCController.cs" />
+        <option value="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Monobehavious/ItemPickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/ItemPickUp_SO.cs" />
         <option value="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/CharacterStats_SO.cs" />
       </list>
     </option>
@@ -102,6 +122,7 @@
       <workItem from="1601896366171" duration="2843000" />
       <workItem from="1602330135234" duration="1136000" />
       <workItem from="1602345817909" duration="3908000" />
+      <workItem from="1602417530295" duration="2951000" />
     </task>
     <servers />
   </component>
@@ -120,6 +141,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
