@@ -18,6 +18,7 @@
           <e p="Scripts" t="Include">
             <e p="Monobehavious" t="Include">
               <e p="CharacterInventory.cs" t="Include" />
+              <e p="CharacterStats.cs" t="Include" />
               <e p="ItemPickUp.cs" t="Include" />
             </e>
             <e p="Scriptable Objects" t="Include">
