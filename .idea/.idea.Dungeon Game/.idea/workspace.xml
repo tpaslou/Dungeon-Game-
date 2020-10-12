@@ -19,14 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcef0149-e2d5-4fc9-aad6-18fe87c50464" name="Default Changelist" comment="Equip &amp; UnEquip Methods added">
+    <list default="true" id="dcef0149-e2d5-4fc9-aad6-18fe87c50464" name="Default Changelist" comment="Level Up &amp; Damage methods , Final Stat System">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dungeon Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dungeon Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dungeon Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dungeon Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1. Character &amp; NPC Controller/Hero/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1. Character &amp; NPC Controller/Hero/Hero.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Monobehavious/CharacterInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Monobehavious/CharacterInventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/CharacterStats_SO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/CharacterStats_SO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Common/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Common/Scripts/MouseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Scripts/MouseManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/45/45be3aadb00f3e1911ceb5f784af0c7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/52/5218322a7e21fb8f721adbaed2e52390" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/84/84134622542d45e1c6005f6795e16862" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
@@ -35,6 +40,10 @@
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/33912c-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/33912c-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/067c0b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/067c0b-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +54,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/3. Game Manager/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Monobehavious/CharacterStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/CharacterStats_SO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/ItemPickUp_SO.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,15 +62,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/1. Character &amp; NPC Controller/Scripts/HeroController.cs" />
         <option value="$PROJECT_DIR$/Assets/Common/Scripts/MouseManager.cs" />
         <option value="$PROJECT_DIR$/Assets/1. Character &amp; NPC Controller/Scripts/NPCController.cs" />
         <option value="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Monobehavious/ItemPickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/ItemPickUp_SO.cs" />
         <option value="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Monobehavious/CharacterInventory.cs" />
-        <option value="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/CharacterStats_SO.cs" />
         <option value="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Monobehavious/CharacterStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/2. Character Stat System/Scripts/Scriptable Objects/CharacterStats_SO.cs" />
+        <option value="$PROJECT_DIR$/Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/3. Game Manager/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +119,7 @@
       <workItem from="1601896366171" duration="2843000" />
       <workItem from="1602330135234" duration="1136000" />
       <workItem from="1602345817909" duration="3908000" />
-      <workItem from="1602417530295" duration="7805000" />
+      <workItem from="1602417530295" duration="12301000" />
     </task>
     <task id="LOCAL-00001" summary="Equip &amp; UnEquip Methods added">
       <created>1602421670574</created>
@@ -117,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602421670574</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Level Up &amp; Damage methods , Final Stat System">
+      <created>1602430551196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602430551196</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,12 +158,13 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Equip &amp; UnEquip Methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Equip &amp; UnEquip Methods added" />
+    <MESSAGE value="Level Up &amp; Damage methods , Final Stat System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level Up &amp; Damage methods , Final Stat System" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="241" y="256" key="Vcs.Push.Dialog.v2" timestamp="1602421679567">
+    <state x="241" y="256" key="Vcs.Push.Dialog.v2" timestamp="1602430557234">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="241" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040/-1920.0.1536.824@0.0.2560.1040" timestamp="1602421679567" />
+    <state x="241" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040/-1920.0.1536.824@0.0.2560.1040" timestamp="1602430557234" />
   </component>
 </project>

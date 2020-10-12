@@ -66,6 +66,7 @@
      <Compile Include="Assets\2. Character Stat System\Scripts\Monobehavious\ItemPickUp.cs" />
      <Compile Include="Assets\2. Character Stat System\Scripts\Scriptable Objects\CharacterStats_SO.cs" />
      <Compile Include="Assets\2. Character Stat System\Scripts\Scriptable Objects\ItemPickUp_SO.cs" />
+     <Compile Include="Assets\3. Game Manager\Scripts\GameManager.cs" />
      <Compile Include="Assets\Common\Level\FX\Scripts\LightFlicker.cs" />
      <Compile Include="Assets\Common\Level\FX\Streaks\RandomizeLightStreak.cs" />
      <Compile Include="Assets\Common\Scripts\MouseManager.cs" />
