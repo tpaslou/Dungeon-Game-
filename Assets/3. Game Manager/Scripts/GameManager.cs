@@ -24,7 +24,7 @@ public class GameManager : Singleton<GameManager>
       
       DontDestroyOnLoad(gameObject);
       _loadOperations=new List<AsyncOperation>();
-      
+      _instancedSystemPrefabs=new List<GameObject>();
       InstantiateSystemPrefabs();
       
       LoadLevel("Main");
@@ -36,8 +36,10 @@ public class GameManager : Singleton<GameManager>
       GameObject prefabInstance;
       for (int i = 0; i < SystemPrefabs.Length; i++)
       {
-          prefabInstance = Instantiate(SystemPrefabs[i]);
-          _instancedSystemPrefabs.Add(prefabInstance);
+          
+              prefabInstance = Instantiate(SystemPrefabs[i]);
+              _instancedSystemPrefabs.Add(prefabInstance);
+          
       }
   }
 
