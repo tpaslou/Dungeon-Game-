@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{62BA5E61-0421-3025-997D-955BB895C37B}</ProjectGuid>
+    <ProjectGuid>{9BC01B02-CD32-1CCE-C5F6-8DCF19207276}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,15 +61,17 @@
      <Compile Include="Assets\1. Character &amp; NPC Controller\Scripts\HeroController.cs" />
      <Compile Include="Assets\1. Character &amp; NPC Controller\Scripts\NPCController.cs" />
      <Compile Include="Assets\1. Character &amp; NPC Controller\Scripts\Waypoint.cs" />
-     <Compile Include="Assets\2. Character Stat System\Scripts\Monobehavious\CharacterInventory.cs" />
-     <Compile Include="Assets\2. Character Stat System\Scripts\Monobehavious\CharacterStats.cs" />
-     <Compile Include="Assets\2. Character Stat System\Scripts\Monobehavious\ItemPickUp.cs" />
-     <Compile Include="Assets\2. Character Stat System\Scripts\Scriptable Objects\CharacterStats_SO.cs" />
-     <Compile Include="Assets\2. Character Stat System\Scripts\Scriptable Objects\ItemPickUp_SO.cs" />
-     <Compile Include="Assets\3. Game Manager\Scripts\GameManager.cs" />
-     <Compile Include="Assets\3. Game Manager\Scripts\Menu\MainMenu.cs" />
-     <Compile Include="Assets\3. Game Manager\Scripts\Menu\UIManager.cs" />
-     <Compile Include="Assets\3. Game Manager\Scripts\Utils\Singleton.cs" />
+     <Compile Include="Assets\2. Character Stats\Scripts\Monobehaviours\CharacterInventory.cs" />
+     <Compile Include="Assets\2. Character Stats\Scripts\Monobehaviours\CharacterStats.cs" />
+     <Compile Include="Assets\2. Character Stats\Scripts\Monobehaviours\ItemPickUp.cs" />
+     <Compile Include="Assets\2. Character Stats\Scripts\ScriptableObjects\CharacterStats_SO.cs" />
+     <Compile Include="Assets\2. Character Stats\Scripts\ScriptableObjects\ItemPickUps_SO.cs" />
+     <Compile Include="Assets\3. GameManager\Scripts\GameManager.cs" />
+     <Compile Include="Assets\3. GameManager\Scripts\Menu\MainMenu.cs" />
+     <Compile Include="Assets\3. GameManager\Scripts\Menu\PauseMenu.cs" />
+     <Compile Include="Assets\3. GameManager\Scripts\Menu\UIManager.cs" />
+     <Compile Include="Assets\3. GameManager\Scripts\Utils\Events.cs" />
+     <Compile Include="Assets\3. GameManager\Scripts\Utils\Singleton.cs" />
      <Compile Include="Assets\Common\Level\FX\Scripts\LightFlicker.cs" />
      <Compile Include="Assets\Common\Level\FX\Streaks\RandomizeLightStreak.cs" />
      <Compile Include="Assets\Common\Scripts\MouseManager.cs" />
@@ -161,31 +163,31 @@
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game (v2)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game (v2)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game (v2)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game (v2)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game (v2)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game (v2)/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game (v2)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game (v2)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/thano/Desktop/Overview-and-Character-Controller/Dungeon Game (v2)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
