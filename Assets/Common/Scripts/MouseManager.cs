@@ -31,12 +31,13 @@ public class MouseManager : MonoBehaviour
         Cursor.SetCursor(pointer, Vector2.zero, CursorMode.Auto);
         if (_useDefaultCursor)
         {
+            Cursor.SetCursor(pointer,new Vector2(16,16),CursorMode.Auto );
             return;
         }
 
         // Raycast into scene
         RaycastHit hit;
-        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 50, clickableLayer.value))
+        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 40, clickableLayer.value))
         {
             // Override cursor
             Cursor.SetCursor(target, new Vector2(16, 16), CursorMode.Auto);
